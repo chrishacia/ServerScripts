@@ -3,6 +3,10 @@
 
 This repository contains a collection of useful CLI-based scripts for monitoring live metrics and data on a server. These scripts provide real-time information on disk usage, memory usage, active Node.js processes, and network traffic. Each script is designed to be run either once or in a live mode for continuous monitoring.
 
+## Author
+- Name: Christopher Hacia
+- Website: https://chrishacia.com
+
 ## Table of Contents
 1. [disk_usage.js](#disk_usagejs)
 2. [memory_usage.js](#memory_usagejs)
