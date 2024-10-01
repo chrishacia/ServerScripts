@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
     "clear": "^0.1.0",
     "cli-table": "^0.3.11"
   }
