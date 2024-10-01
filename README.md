@@ -37,6 +37,8 @@ This script fetches and displays disk usage statistics, showing details such as 
 ### Ubuntu Dependencies:
 - None (Uses `df` command available by default)
 
+<img width="587" alt="_disk_usage" src="https://github.com/user-attachments/assets/decb88ec-332e-4cfa-8f7e-6c5ef1553939">
+
 ---
 
 ## 2. memory_usage.js
@@ -60,6 +62,8 @@ This script displays the system's memory usage, including total memory, used mem
 
 ### Ubuntu Dependencies:
 - None (Uses `free` command available by default)
+
+<img width="546" alt="_memory_usage" src="https://github.com/user-attachments/assets/c488a6f5-2b1d-473c-8fe2-2fc15b15db24">
 
 ---
 
@@ -89,6 +93,8 @@ This script checks for active Node.js processes and lists their PID, user, port,
   sudo apt install lsof procps
   ```
 
+<img width="881" alt="_node_port_check" src="https://github.com/user-attachments/assets/c1c24921-324e-477b-8415-961f7e51e2ce">
+
 ---
 
 ## 4. traffic_monitor.js
@@ -112,6 +118,8 @@ This script provides real-time monitoring of network traffic for various service
   ```bash
   sudo apt install iproute2 nload
   ```
+  
+<img width="1111" alt="traffic_monitor" src="https://github.com/user-attachments/assets/490b2910-2b4a-4bd5-8a43-c9dc9ce10438">
 
 ---
 
