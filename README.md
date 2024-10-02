@@ -12,6 +12,7 @@ This repository contains a collection of useful CLI-based scripts for monitoring
 2. [memory_usage.js](#memory_usagejs)
 3. [node_port_check.js](#node_port_checkjs)
 4. [traffic_monitor.js](#traffic_monitorjs)
+5. [clean_node_modules.js](#clean_node_modulesjs)
 
 ---
 
@@ -120,6 +121,36 @@ This script provides real-time monitoring of network traffic for various service
   ```
   
 <img width="1111" alt="traffic_monitor" src="https://github.com/user-attachments/assets/490b2910-2b4a-4bd5-8a43-c9dc9ce10438">
+
+---
+
+## 5. clean_node_modules.js
+
+### Description:
+This script recursively searches through directories starting at a given path, finds all `node_modules` folders, and deletes them. It also logs the deleted folders, calculates the total size of deleted `node_modules`, and skips symbolic links to avoid unnecessary processing.
+
+### Dependencies:
+- `fs` (Node.js built-in)
+- `path` (Node.js built-in)
+- `cli-progress` (Progress bar for visual feedback. Install using `npm install cli-progress`)
+
+### Example usage:
+- To delete all `node_modules` folders in a specific directory:
+  ```bash
+  ./clean_node_modules.js /path/to/directory
+  ```
+
+- To handle directories with symbolic links and log deleted folders:
+  The script will automatically skip symbolic links and generate a log file named `clean_log-YYYY-MM-DD_HHMMSS.txt` containing the paths of all deleted folders.
+
+### Making the script executable:
+Before running the script in a bash terminal, ensure it has executable permissions:
+```bash
+chmod +x clean_node_modules.js
+```
+
+### Ubuntu Dependencies:
+- None (No additional system dependencies required)
 
 ---
 
